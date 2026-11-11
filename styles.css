@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background:
+        linear-gradient(rgba(225, 249, 250, .25), rgba(225, 249, 250, .25)),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAnHwDsTitd6ApiVPnPy1Vji4IM19lyzsXBS8LcfkSUt9tmBhrux33GHE&s=10") center / cover fixed;
+}
+
+
+.page-content {
+    width: 100%;
+    max-width: 1369px;
+    flex: 1 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.page-heading {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .7);
+}
+
+
+.content-panel {
+    background-color: rgba(248, 252, 255, .92) !important;
+}
+
+
+.site-footer {
+    border-top: 4px solid #56d8e6;
+    background: rgba(15, 42, 60, .94);
+}
